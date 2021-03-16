@@ -13,6 +13,8 @@
 		B0B0DED526006DBD0036B96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B0DED326006DBD0036B96C /* Main.storyboard */; };
 		B0B0DED726006DBD0036B96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B0DED626006DBD0036B96C /* Assets.xcassets */; };
 		B0B0DEDA26006DBD0036B96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B0DED826006DBD0036B96C /* LaunchScreen.storyboard */; };
+		B0B0DF05260109A50036B96C /* MPLUSRounded1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0B0DF04260109A50036B96C /* MPLUSRounded1c-Medium.ttf */; };
+		B0B0DF0826010EFC0036B96C /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0DF0726010EFC0036B96C /* PrintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B0B0DED626006DBD0036B96C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B0DED926006DBD0036B96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B0DEDB26006DBD0036B96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B0DF04260109A50036B96C /* MPLUSRounded1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Medium.ttf"; sourceTree = "<group>"; };
+		B0B0DF0726010EFC0036B96C /* PrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		B0B0DEC126006DBD0036B96C = {
 			isa = PBXGroup;
 			children = (
+				B0B0DF03260109850036B96C /* Font */,
 				B0B0DECC26006DBD0036B96C /* SecondKadaiApp */,
 				B0B0DECB26006DBD0036B96C /* Products */,
 			);
@@ -59,12 +64,21 @@
 				B0B0DECD26006DBD0036B96C /* AppDelegate.swift */,
 				B0B0DECF26006DBD0036B96C /* SceneDelegate.swift */,
 				B0B0DED126006DBD0036B96C /* ViewController.swift */,
+				B0B0DF0726010EFC0036B96C /* PrintViewController.swift */,
 				B0B0DED326006DBD0036B96C /* Main.storyboard */,
 				B0B0DED626006DBD0036B96C /* Assets.xcassets */,
 				B0B0DED826006DBD0036B96C /* LaunchScreen.storyboard */,
 				B0B0DEDB26006DBD0036B96C /* Info.plist */,
 			);
 			path = SecondKadaiApp;
+			sourceTree = "<group>";
+		};
+		B0B0DF03260109850036B96C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B0B0DF04260109A50036B96C /* MPLUSRounded1c-Medium.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B0DEDA26006DBD0036B96C /* LaunchScreen.storyboard in Resources */,
+				B0B0DF05260109A50036B96C /* MPLUSRounded1c-Medium.ttf in Resources */,
 				B0B0DED726006DBD0036B96C /* Assets.xcassets in Resources */,
 				B0B0DED526006DBD0036B96C /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B0DF0826010EFC0036B96C /* PrintViewController.swift in Sources */,
 				B0B0DED226006DBD0036B96C /* ViewController.swift in Sources */,
 				B0B0DECE26006DBD0036B96C /* AppDelegate.swift in Sources */,
 				B0B0DED026006DBD0036B96C /* SceneDelegate.swift in Sources */,
