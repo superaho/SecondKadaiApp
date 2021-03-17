@@ -11,17 +11,21 @@ class PrintViewController: UIViewController {
     
     @IBOutlet weak var NameLabel: UILabel!
     
-    var name: String!
+    var name: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        if name.isEmpty {
-            NameLabel.text = "空白です"
+        if name != nil {
+            if name!.isEmpty {
+                NameLabel.text = "空白です"
+            } else {
+                NameLabel.text = "こんにちは、" + name! + "さん"
+            }
         } else {
-            NameLabel.text = "こんにちは、" + name + "さん"
+            NameLabel.text = "nilです"
         }
     }
     
